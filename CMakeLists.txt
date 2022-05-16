@@ -127,8 +127,8 @@ include_directories(
 )
 
 include_directories(
-    SYSTEM
 	${PYTHON_INCLUDE_DIRS}
+    SYSTEM
 )
 
 add_library(blenlib_lib ${SRC})

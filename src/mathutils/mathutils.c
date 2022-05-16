@@ -24,7 +24,9 @@
  *  \ingroup pymathutils
  */
 
+#define Py_BUILD_CORE
 #include <Python.h>
+#include <internal/pycore_interp.h>
 
 #include "mathutils.h"
 

@@ -163,4 +163,6 @@ PyObject *mathutils_dynstr_to_py(struct DynStr *ds);
 
 int mathutils_deepcopy_args_check(PyObject *args);
 
+typedef PyObject *(*PyNoArgsFunction)(PyObject *);
+
 #endif /* __MATHUTILS_H__ */
